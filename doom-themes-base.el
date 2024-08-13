@@ -196,7 +196,7 @@
     ;; base5 and lower have too little contrast in dark themes.
     (ansi-color-bright-black
      (&light :foreground base4 :background base4)
-     (&dark  :foreground base6 :background base6))
+     (&dark  :foreground base6 :background base5))
     (ansi-color-bright-red     :foreground (doom-lighten red 0.15)     :background (doom-lighten red 0.15))
     (ansi-color-bright-green   :foreground (doom-lighten green 0.15)   :background (doom-lighten green 0.15))
     (ansi-color-bright-yellow  :foreground (doom-lighten yellow 0.15)  :background (doom-lighten yellow 0.15))
